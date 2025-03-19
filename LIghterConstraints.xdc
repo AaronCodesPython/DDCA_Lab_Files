@@ -16,4 +16,9 @@ set_property PACKAGE_PIN V15 [get_ports {B[1]}]
 set_property PACKAGE_PIN W14 [get_ports {B[2]}]
 set_property PACKAGE_PIN W13 [get_ports {B[3]}]
 
-set_property IOSTANDARD LVCMOS33 [get_ports {D A B}]
+set_property PACKAGE_PIN U2 [get_ports {AN[0]}]
+set_property PACKAGE_PIN U4 [get_ports {AN[1]}]
+set_property PACKAGE_PIN V4 [get_ports {AN[2]}]
+set_property PACKAGE_PIN W4 [get_ports {AN[3]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {D A B AN}]

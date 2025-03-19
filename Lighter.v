@@ -23,9 +23,11 @@
 module Lighter(
     input [3:0] A,
     input [3:0] B,
-    output [7:0] D
+    output [7:0] D,
+    [3:0] AN
     );
     wire [4:0] S;
+    AN = 4'b0111;
     FourBitAdder(A,B,S);
     SegmentDecoder(S[4], S[3:0], D[6:0], D[7]); 
 endmodule
