@@ -1,12 +1,24 @@
 #-----------------------------------------------------------
-# Vivado v2019.2 (64-bit)
-# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
-# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Tue Mar 25 18:05:01 2025
-# Process ID: 12812
-# Current directory: C:/Users/aglaser/Lab4/Lab4.runs/synth_1
-# Command line: vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
-# Log file: C:/Users/aglaser/Lab4/Lab4.runs/synth_1/FSM.vds
-# Journal file: C:/Users/aglaser/Lab4/Lab4.runs/synth_1\vivado.jou
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Tue Mar 25 19:19:53 2025
+# Process ID         : 200032
+# Current directory  : C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.runs/synth_1
+# Command line       : vivado.exe -log FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FSM.tcl
+# Log file           : C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.runs/synth_1/FSM.vds
+# Journal file       : C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.runs/synth_1\vivado.jou
+# Running On         : JuliansPC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) Ultra 7 165H
+# CPU Frequency      : 3072 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 22
+# Host memory        : 33777 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 35924 MB
+# Available Virtual  : 21400 MB
 #-----------------------------------------------------------
 source FSM.tcl -notrace

@@ -25,8 +25,9 @@ module FSM(
     rst,
     right,
     left,
-    output  reg [5:0] lights
+    output  reg [5:0] lights, output battlepass
     );
+    
     
   
     //state register
@@ -72,7 +73,6 @@ module FSM(
     6: lights = 6'b111000;
     default: lights = 6'b001000;
     endcase
-
     
     
 endmodule

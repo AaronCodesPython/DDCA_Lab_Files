@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/aglaser/Lab4/Lab4.srcs/constrs_1/new/BlinkerConstraints.xdc rfile:../../../Lab4.srcs/constrs_1/new/BlinkerConstraints.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.srcs/constrs_1/new/BlinkerConstraints.xdc rfile:../../../Lab4.srcs/constrs_1/new/BlinkerConstraints.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports clk]
 set_property src_info {type:XDC file:1 line:6 export:INPUT save:INPUT read:READ} [current_design]
@@ -19,3 +19,5 @@ set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN U18 [get_ports rst]
 set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T17 [get_ports left]
+set_property src_info {type:XDC file:1 line:19 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN L1 [get_ports battlepass]

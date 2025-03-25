@@ -1,14 +1,14 @@
-Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Tue Mar 25 18:06:33 2025
-| Host         : slabhg095 running 64-bit major release  (build 9200)
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Mar 25 19:21:04 2025
+| Host         : JuliansPC running 64-bit major release  (build 9200)
 | Command      : report_drc -file FSM_drc_routed.rpt -pb FSM_drc_routed.pb -rpx FSM_drc_routed.rpx
 | Design       : FSM
 | Device       : xc7a35tcpg236-1
 | Speed File   : -1
 | Design State : Fully Routed
----------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Report DRC
 
@@ -23,15 +23,15 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
            Ruledeck: default
-             Max violations: <unlimited>
-             Violations found: 3
-+-------------+----------+-------------------------------------------------------------+------------+
-| Rule        | Severity | Description                                                 | Violations |
-+-------------+----------+-------------------------------------------------------------+------------+
-| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
-| PDRC-153    | Warning  | Gated clock check                                           | 1          |
-| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
-+-------------+----------+-------------------------------------------------------------+------------+
+             Max checks: <unlimited>
+             Checks found: 3
++-------------+----------+-------------------------------------------------------------+--------+
+| Rule        | Severity | Description                                                 | Checks |
++-------------+----------+-------------------------------------------------------------+--------+
+| CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1      |
+| PDRC-153    | Warning  | Gated clock check                                           | 1      |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1      |
++-------------+----------+-------------------------------------------------------------+--------+
 
 2. REPORT DETAILS
 -----------------
@@ -50,13 +50,16 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net clock/CLK is a gated clock net sourced by a combinational pin clock/FSM_onehot_state[6]_i_1/O, cell clock/FSM_onehot_state[6]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Net clock/clk_count_reg[0]_0 is a gated clock net sourced by a combinational pin clock/FSM_onehot_state[6]_i_1/O, cell clock/FSM_onehot_state[6]_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
 A LUT clock/FSM_onehot_state[6]_i_1 is driving clock pin of 9 cells. This could lead to large hold time violations. Involved cells are:
-FSM_onehot_state_reg[0], FSM_onehot_state_reg[1], FSM_onehot_state_reg[2], FSM_onehot_state_reg[3], FSM_onehot_state_reg[3]_lopt_replica, FSM_onehot_state_reg[4], FSM_onehot_state_reg[5], FSM_onehot_state_reg[6], FSM_onehot_state_reg[6]_lopt_replica
+FSM_onehot_state_reg[0], FSM_onehot_state_reg[1], FSM_onehot_state_reg[2],
+FSM_onehot_state_reg[3], FSM_onehot_state_reg[3]_lopt_replica,
+FSM_onehot_state_reg[4], FSM_onehot_state_reg[5], FSM_onehot_state_reg[6]
+FSM_onehot_state_reg[6]_lopt_replica
 Related violations: <none>
 
 

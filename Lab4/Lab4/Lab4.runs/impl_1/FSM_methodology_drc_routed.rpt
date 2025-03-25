@@ -1,8 +1,8 @@
-Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
-| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Tue Mar 25 18:06:34 2025
-| Host         : slabhg095 running 64-bit major release  (build 9200)
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Mar 25 19:21:06 2025
+| Host         : JuliansPC running 64-bit major release  (build 9200)
 | Command      : report_methodology -file FSM_methodology_drc_routed.rpt -pb FSM_methodology_drc_routed.pb -rpx FSM_methodology_drc_routed.rpx
 | Design       : FSM
 | Device       : xc7a35tcpg236-1
@@ -22,14 +22,14 @@ Table of Contents
             Netlist: netlist
           Floorplan: design_1
       Design limits: <entire design considered>
-             Max violations: <unlimited>
-             Violations found: 10
-+-----------+------------------+-------------------------------+------------+
-| Rule      | Severity         | Description                   | Violations |
-+-----------+------------------+-------------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 9          |
-| TIMING-18 | Warning          | Missing input or output delay | 1          |
-+-----------+------------------+-------------------------------+------------+
+             Max checks: <unlimited>
+             Checks found: 11
++-----------+------------------+-------------------------------+--------+
+| Rule      | Severity         | Description                   | Checks |
++-----------+------------------+-------------------------------+--------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 9      |
+| TIMING-18 | Warning          | Missing input or output delay | 2      |
++-----------+------------------+-------------------------------+--------+
 
 2. REPORT DETAILS
 -----------------
@@ -80,7 +80,12 @@ Related violations: <none>
 
 TIMING-18#1 Warning
 Missing input or output delay  
-An input delay is missing on rst relative to clock(s) clk
+An input delay is missing on rst relative to the rising and/or falling clock edge(s) of clk.
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on battlepass relative to the rising and/or falling clock edge(s) of clk.
 Related violations: <none>
 
 
