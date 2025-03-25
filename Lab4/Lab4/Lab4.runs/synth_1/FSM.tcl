@@ -56,8 +56,6 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 5
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -73,8 +71,6 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib {
-  C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.srcs/sources_1/new/DimmedFSM.v
-  C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.srcs/sources_1/new/clk_dimmer.v
   C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.srcs/sources_1/new/clk_div.v
   C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Lab4/Lab4/Lab4.srcs/sources_1/new/FSM.v
 }

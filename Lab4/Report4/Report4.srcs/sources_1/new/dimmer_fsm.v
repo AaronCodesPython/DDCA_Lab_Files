@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 03/25/2025 06:43:28 PM
+// Create Date: 03/25/2025 10:23:03 PM
 // Design Name: 
-// Module Name: DimmedFSM
+// Module Name: dimmer_fsm
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,11 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module DimmedFSM(input reg [2:0] state, input clk, output [5:0] dimmed);
-clk_dimmer #(2'b00)fifty_percent(clk, dimmed);
-clk_dimmer #(2'b01)tf_percent(clk, dimmed);
-clk_dimmer #(2'b10)tpf_percent(clk, dimmed);
-
-
-
+module dimmer_fsm(
+    input [0:0] abc
+    );
 endmodule

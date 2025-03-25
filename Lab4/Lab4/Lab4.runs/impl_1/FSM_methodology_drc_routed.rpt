@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
-| Date         : Tue Mar 25 19:21:06 2025
+| Date         : Tue Mar 25 22:17:13 2025
 | Host         : JuliansPC running 64-bit major release  (build 9200)
 | Command      : report_methodology -file FSM_methodology_drc_routed.rpt -pb FSM_methodology_drc_routed.pb -rpx FSM_methodology_drc_routed.rpx
 | Design       : FSM
@@ -23,12 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max checks: <unlimited>
-             Checks found: 11
+             Checks found: 10
 +-----------+------------------+-------------------------------+--------+
 | Rule      | Severity         | Description                   | Checks |
 +-----------+------------------+-------------------------------+--------+
 | TIMING-17 | Critical Warning | Non-clocked sequential cell   | 9      |
-| TIMING-18 | Warning          | Missing input or output delay | 2      |
+| TIMING-18 | Warning          | Missing input or output delay | 1      |
 +-----------+------------------+-------------------------------+--------+
 
 2. REPORT DETAILS
@@ -81,11 +81,6 @@ Related violations: <none>
 TIMING-18#1 Warning
 Missing input or output delay  
 An input delay is missing on rst relative to the rising and/or falling clock edge(s) of clk.
-Related violations: <none>
-
-TIMING-18#2 Warning
-Missing input or output delay  
-An output delay is missing on battlepass relative to the rising and/or falling clock edge(s) of clk.
 Related violations: <none>
 
 

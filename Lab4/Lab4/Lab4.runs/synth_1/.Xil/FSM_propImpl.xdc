@@ -19,5 +19,3 @@ set_property src_info {type:XDC file:1 line:15 export:INPUT save:INPUT read:READ
 set_property PACKAGE_PIN U18 [get_ports rst]
 set_property src_info {type:XDC file:1 line:16 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T17 [get_ports left]
-set_property src_info {type:XDC file:1 line:19 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN L1 [get_ports battlepass]

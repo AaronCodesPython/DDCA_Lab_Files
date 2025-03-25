@@ -25,7 +25,7 @@ module FSM(
     rst,
     right,
     left,
-    output  reg [5:0] lights, output battlepass
+    output  reg [5:0] lights
     );
     
     
