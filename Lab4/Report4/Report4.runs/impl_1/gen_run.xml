@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1743005040">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1743023332">
   <File Type="PA-TCL" Name="dimmer_fsm.tcl"/>
   <File Type="REPORTS-TCL" Name="dimmer_fsm_reports.tcl"/>
   <File Type="INIT-TIMING" Name="dimmer_fsm_timing_summary_init.rpt"/>
@@ -52,12 +52,12 @@
   <File Type="ROUTE-RQS-PB" Name="dimmer_fsm_rqs_routed.pb"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="dimmer_fsm_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="dimmer_fsm_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="clk_dimmer_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="clk_dimmer_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="clk_dimmer_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="clk_dimmer_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="clk_dimmer_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="clk_dimmer_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="dimmer_fsm_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="dimmer_fsm_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="dimmer_fsm_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="dimmer_fsm_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="dimmer_fsm_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="dimmer_fsm_bus_skew_postroute_physopted.rpx"/>
   <File Type="BG-BIT" Name="dimmer_fsm.bit"/>
   <File Type="BG-BIN" Name="dimmer_fsm.bin"/>
   <File Type="BITSTR-MSK" Name="dimmer_fsm.msk"/>
