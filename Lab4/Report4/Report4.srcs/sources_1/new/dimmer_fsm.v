@@ -20,7 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module dimmer_fsm(
-    input [0:0] abc
-    );
+module dimmer_fsm(input clk, rst, right, left, output reg[5:0] lights);
+    wire divClock;
+    clk_div
+    // state register
+    
 endmodule
