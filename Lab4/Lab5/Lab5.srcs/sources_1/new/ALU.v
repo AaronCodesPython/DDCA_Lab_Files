@@ -25,7 +25,5 @@ wire [31:0] extBit;
 assign extBit = {addOut[31], 31'b0};
 assign arithOut = AluOp[3] ? extBit : addOut;
 assign res = AluOp[2] ? logicOut : arithOut;
-wire [31:0] notRes;
-not(res, notRes);
-assign zero = &notRes;
+assign zero = &(~res);
 endmodule
