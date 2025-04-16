@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/ALU.v,1744213301,verilog,,,,ALU,,,,,,,,
+C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/Adder1Bit.v,1744213586,verilog,,C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/Adder32Bit.v,,Adder1Bit,,,,,,,,
+C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/Adder32Bit.v,1744213562,verilog,,C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/Adder4Bit.v,,Adder32Bit,,,,,,,,
+C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/Adder4Bit.v,1744213549,verilog,,C:/Users/whofm/Documents/GitHub/DDCA_Lab_Files/Report5/Report5.srcs/sources_1/new/ALU.v,,Adder4Bit,,,,,,,,
